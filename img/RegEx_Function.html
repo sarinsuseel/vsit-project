@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Regular Expression </title>
+</head>
+<body>
+    
+
+
+
+<script>
+
+
+// Global and Insensitive Case Flag
+
+//let reg = /first/g; --> We use g for global search 
+//let reg = /first/i; --> We use i for case insensitive
+
+
+let reg = /first/g;
+console.log(reg.source);
+
+let text = "hello this is my first text on first day.";
+console.log(text);
+
+
+// exec --> This Function will return an array for match or null for no match. 
+// Note --> we use exec multiple time for multiple match.
+
+/*
+let result1 = reg.exec(text);
+console.log(result1);
+
+result1 = reg.exec(text);
+console.log(result1);
+
+result1 = reg.exec(text);
+console.log(result1);
+*/
+//it show null because there is no another first in the text string.
+
+
+
+// test --> This function will return true for match or false for no match.
+
+/*
+let result2 = reg.test(text);
+console.log(result2);
+
+let reg_1 = /day/g
+result2 = reg_1.test(text);
+console.log(result2);
+*/
+
+
+
+// match --> This function will return array for match or null for no match.
+// Note --> In this function we will exchange the string with our search or regular expression.  
+// Note --> we don't have to use match multiple time for multiple matches.
+
+/*
+let result3 = text.match(reg);
+console.log(result3);
+
+let reg_2 = /hello/g;
+result3 = text.match(reg_2);
+console.log(result3);
+*/
+
+
+
+// Search --> This function will return index of for first match or -1 for no match.
+// Note --> In this function we will exchange the string with our search or regular expression.  
+
+/*
+let result4 = text.search(reg);
+console.log(result4);
+
+let reg_3 = /Peter/g;
+result4 = text.search(reg_3)
+console.log(result4);
+*/
+
+
+
+// Replace --> This function will return new string with replacement.
+// Note --> In this function we will exchange the string with our search or regular expression.  
+// Note --> In this function we give global flag for all replacement and without global flag for first replacement.
+
+/*
+let result5 = text.replace(reg, 'HELLO');
+console.log(result5);
+
+reg = /first/;
+result5 = text.replace(reg, 'HELLO');
+console.log(result5);
+*/
+
+
+
+//Split --> It return the split word characters or string.
+// Note --> In this function we give global flag for all replacement and without global flag for first replacement.
+
+/*
+
+// with space in ' ' it split word from string by indexing no.
+let result6 = text.split(' ');
+console.log(result6[3]);
+
+// without space in '' it split characters from string by indexing no.
+result6 = text.split('');
+console.log(result6[4]);
+
+// It return an array
+result6 = text.split();
+console.log(result6);
+*/
+
+
+</script>
+
+</body>
+</html>

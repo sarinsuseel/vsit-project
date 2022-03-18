@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monoton&family=Orbitron:wght@400;500;600;700;800;900&family=PT+Sans&family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monoton&family=Orbitron:wght@400;500;600;700;800;900&family=PT+Sans&family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white !important;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 300;
+}
+
+/* ================ navbar ================= */
+
+
+.n_1{
+    background-color: #54BAB9;
+}
+
+.n_2{
+    color: whitesmoke;
+}
+
+
+#logo h1{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+} 
+
+.mn_1{
+    box-shadow: rgba(50, 160, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.n_3:hover{
+    background-color: #58DADA;
+    color: white;
+    box-shadow: 5px 5px 7px  #264E86;
+}
+
+.n_4{
+    background-color: #54BAB9;
+    color: white;
+}
+
+.n_4:hover{
+    color: white;
+    box-shadow: 5px 5px 7px  #264E86;
+}
+
+.n_5{
+    position: relative;
+    animation-name: cr1;
+    animation-duration: 1.5s;
+}
+
+@keyframes cr1 {
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 0;
+
+    }
+}
+
+.n_5_1{
+    position: relative;
+    animation-name: cr2;
+    animation-duration: 1.5s;
+    animation-delay: .3s;
+}
+@keyframes cr2 {
+    0%{
+        top: -150px;
+    }
+    100%{
+        top: 0;
+
+    }
+}
+
+.n_5_2{
+    position: relative;
+    animation-name: cr3;
+    animation-duration: 12s;
+    animation-delay: .3s;
+}
+@keyframes cr3 {
+    0%{
+        top: -500px;
+        left: -780px;
+    }
+
+    50%{
+        top: 0px;
+        left: -750px;
+    }
+
+    75%{
+        top: -40px;
+    }
+    
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+
+.n_6 a:hover{
+    transform: scale(1.2);
+    background-color: #5463FF;
+    border-radius: 30px;
+}
+
+/* third part */
+.n_1-2{
+    position: relative;
+    top: -450px;
+    left: 800px;
+    width: 30%;
+}
+
+.n_1_3{
+    position: relative;
+    top: -50px;
+}
+
+.n_8{
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.n_9{
+    box-shadow: 2px 2px 8px black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+.n_8_1{
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.n_10{
+    background-color:#58DADA;
+    border-radius: 10px;
+}
+
+.n_11{
+    width: 10px;
+    height: 12px;
+    position: relative;
+    background-color: white;
+    filter: blur(8px);
+    top: -35px;
+    transform: rotate(40deg);
+    animation: br1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes br1 {
+    0%{
+        left: 240px;
+    }
+
+    100%{
+        left: 0px;
+    }
+    
+}
+
+/* ====================================== fourth part ========================== */
+
+.f_1{
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    background-color: #EFFFFD;
+}
+
+
+.f_2{
+    font-family: 'Gothic A1', sans-serif;
+}
+.f_3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.flip-card {
+    background-color: #EFFFFD;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    perspective: 1000px;
+    background-color: lightcyan;
+    box-shadow: 2px 2px 10px black;
+    animation: ske;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+@keyframes ske {
+    0%{
+        transform: rotatey(10deg);
+        box-shadow: 4px 4px 14px black;
+    }
+    
+    25%{
+        transform: rotatey(-10deg);
+        box-shadow: 2px 2px 8px black;
+    }
+
+    50%{
+        transform: rotatey(10deg); 
+        box-shadow: 4px 4px 14px black;
+    }
+    75%{
+        transform: rotatey(-10deg);
+        box-shadow: 2px 2px 8px black;
+    }
+}
+
+.f_4{
+    background-color: #EFFFFD;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    perspective: 1000px;
+    background-color: lightcyan;
+    box-shadow: 2px 2px 10px black;
+    animation: sk1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+
+@keyframes sk1 {
+    0%{
+        transform: rotatey(-10deg);
+        box-shadow: 4px 4px 14px black;
+    }
+    
+    25%{
+        transform: rotatey(10deg);
+        box-shadow: 2px 2px 8px black;
+    }
+
+    50%{
+        transform: rotatey(-10deg); 
+        box-shadow: 4px 4px 14px black;
+    }
+    75%{
+        transform: rotatey(10deg);
+        box-shadow: 2px 2px 8px black;
+    }
+}
+
+
+/* ============================ 6 =========================== */
+
+
+.s_1{
+    background-color:#58DADA;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 160px;
+}
+
+
+.s_2{
+    width: 30px;
+    height: 12px;
+    position: relative;
+    top: -10px;
+    background-color: white;
+    filter: blur(8px);
+    transform: rotate(40deg);
+    animation: br1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.s_3{
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gothic A1', sans-serif;
+    border-radius: 10px;
+    background-color: rgba(88, 218, 218,0.4);
+    color: black;
+    padding: 10px;
+}
+
+/* .s_5{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: lightblue;
+} */
+
+.s_3_1{
+    margin-top: 60px;
+}
+
+
+.s_4{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.s_5{
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #33ccff;
+    box-shadow: 4px 4px 30px #33ccff;
+}
+
+.s_5:hover{
+    background-color: #54BAB9;
+    color: white;
+    box-shadow: 4px 4px 30px #58DADA;
+}
+
+
+/* ============================== footer part ============================= */
+
+
+
+
+
+
+  .m_1{
+            animation: nj;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+        }
+
+        @keyframes nj {
+            0%{
+                transform: rotateY(360deg);
+            }
+        }
+
+        .m_1:hover{
+            animation: none;
+            color: #54BAB9 !important;
+        }
+
+
+
+/* ===================================== media ========================== */
+
+
+@media only screen and (max-width: 1000px) {
+  
+    .n_5_24{
+        display: none;
+    }
+
+    .n_8 img{
+        height: 150px;
+    }
+  }
+
+
+
+
+
+  /* ========================================Contact Us page ================================= */
+
+  .c8{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 220px;
+}
+
+.c9{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    width: 220px;
+}
+
+.c10{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 455px;
+}
+
+.c11{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 455px;
+}
+
+
+/* =============================== Corses page ========================== */
+
+
+.sq{
+    position: relative;
+    top: -350px;
+    color: white;
+    left: 100px;
+}
+
+.sq_1{
+    box-shadow: 4px 4px 10px black;
+    border-radius: 4px;
+    height: 540px;
+}
+
+.sq_2:hover{
+    box-shadow:4px 4px 10px black;
+    border-radius: 4px;
+}
+
+.sq_3{
+    background-color: #33ccff;
+    border-radius: 5px;
+}
+
+.sq_4{
+    box-shadow: 4px 4px 10px black;
+    padding: 10px;
+    background-color: #58DADA;
+}
+
+
+.sq_6{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+
+.sq_7{
+    border-top: 2px solid black;
+    border-color: #33ccff;
+    padding: 10px;
+}
+
+.accordion{
+    box-shadow: 5px 5px 10px #33ccff;
+}
+
+
+
+/* ======================================== contact Us.page =================================== */
+
+.ipo{
+    font-family: 'Gothic A1', sans-serif;
+}
+
